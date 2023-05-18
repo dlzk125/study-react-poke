@@ -1,0 +1,34 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  &-item {
+    flex: 1 1 33%;
+    &-name {
+      display: block;
+      font-size: 18px;
+      // font-weight: bold;
+      text-align: center;
+      font-family: 'poke', 'notosans';
+    }
+    &-img {
+      display: block;
+      max-width: 200px;
+      height: 150px;
+      margin: 10px auto 0;
+    }
+    &-btn {
+      display: block;
+      width: 100%;
+      max-width: 200px;
+      padding: 0;
+      margin: 10px auto 0;
+      height: 30px;
+      font-size: 14px;
+      line-height: 31px;
+      border-radius: 3px;
+      border: 1px solid #888;
+      appearance: none;
+      background: #fff;
+    }
+  }
+}
